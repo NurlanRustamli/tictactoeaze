@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    height: 100vh;
+     font-family: "Roboto", sans-serif;
+     background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+
+}
+
+h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.board {
+
+    margin-inline: auto;
+    width: 450px;
+    height: 450px;
+    /* background-color: aqua; */
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.horizontal-line {
+    border-bottom: 3px solid black;
+}
+
+.vertical-line {
+    border-right: 3px solid black;
+}
+
+.tile {
+    width: 147px;
+    height: 147px;
+    font-size: 150px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winner {
+    color: red;
+    background-color: lightblue;
+}
